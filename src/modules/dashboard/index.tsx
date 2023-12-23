@@ -10,7 +10,7 @@ export function DashboardModule() {
 	const navigate = useNavigate()
 	const mutate = usePostActivity()
 	const mutateDelete = useDeleteActivity()
-	const [open, setOpen] = useState(true)
+	const [open, setOpen] = useState(false)
 	const { data, isLoading, isError } = useGetActivityList()
 
 	const handleMutate = () => {
