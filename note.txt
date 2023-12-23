@@ -1,0 +1,53 @@
+['[data-cy="header-title"]','[data-cy="header-background"]','[data-cy="activity-add-button"]','[data-cy="activity-empty-state"]','[data-cy="activity-title"]',].map(v => {
+	const x = document.querySelector(v)
+	if(!x) console.log("Tidak Ditemukan", v)
+	console.log(x)
+})
+
+['[data-cy="header-title"]','[data-cy="header-background"]','[data-cy="activity-add-button"]','[data-cy="activity-item"]','[data-cy="activity-item-title"]','[data-cy="activity-item-date"]','[data-cy="activity-item-delete-button"]',].map(v => {
+	const x = document.querySelector(v)
+	if(!x) console.log("Tidak Ditemukan", v)
+	console.log(x)
+})
+
+['[data-cy="header-title"]','[data-cy="header-background"]','[data-cy="todo-empty-state"]','[data-cy="todo-title-edit-button"]','[data-cy="todo-back-button"]','[data-cy="todo-add-button"]','[data-cy="todo-title"]',].map(v => {
+	const x = document.querySelector(v)
+	if(!x) console.log("Tidak Ditemukan", v)
+	console.log(x)
+})
+
+['[data-cy="header-title"]','[data-cy="header-background"]','[data-cy="todo-title-edit-button"]','[data-cy="todo-back-button"]','[data-cy="todo-add-button"]','[data-cy="todo-sort-button"]','[data-cy="todo-title"]','[data-cy="todo-item"]','[data-cy="todo-item-checkbox"]','[data-cy="todo-item-edit-button"]','[data-cy="todo-item-title"]','[data-cy="todo-item-priority-indicator"]','[data-cy="todo-item-delete-button"]',].map(v => {
+	const x = document.querySelector(v)
+	if(!x) console.log("Tidak Ditemukan", v)
+	console.log(x)
+})
+
+['[data-cy="sort"]','[data-cy="sort-latest"]','[data-cy="sort-oldest"]','[data-cy="sort-unfinished"]','[data-cy="sort-za"]','[data-cy="sort-az"]',].map(v => {
+	const x = document.querySelector(v)
+	if(!x) console.log("Tidak Ditemukan", v)
+	console.log(x)
+})
+
+['[data-cy="modal-add"]','[data-cy="modal-add-save-button"]','[data-cy="modal-add-close-button"]','[data-cy="modal-add-priority-dropdown"]','[data-cy="modal-add-name-input"]','[data-cy="modal-add-close-button"]','[data-cy="modal-add-priority-title"]','[data-cy="modal-add-name-title"]','[data-cy="modal-add-title"]',].map(v => {
+	const x = document.querySelector(v)
+	if(!x) console.log("Tidak Ditemukan", v)
+	console.log(x)
+})
+
+['[data-cy="modal-add-priority-dropdown"]','[data-cy="modal-add-priority-very-low"]','[data-cy="modal-add-priority-low"]','[data-cy="modal-add-priority-medium"]','[data-cy="modal-add-priority-high"]','[data-cy="modal-add-priority-very-high"]',].map(v => {
+	const x = document.querySelector(v)
+	if(!x) console.log("Tidak Ditemukan", v)
+	console.log(x)
+})
+
+['[data-cy="modal-delete"]','[data-cy="modal-delete-icon"]','[data-cy="modal-delete-title"]','[data-cy="modal-delete-cancel-button"]','[data-cy="modal-delete-confirm-button"]',].map(v => {
+	const x = document.querySelector(v)
+	if(!x) console.log("Tidak Ditemukan", v)
+	console.log(x)
+})
+
+['[data-cy="modal-information"]','[data-cy="modal-information-icon"]','[data-cy="modal-information-title"]',].map(v => {
+	const x = document.querySelector(v)
+	if(!x) console.log("Tidak Ditemukan", v)
+	console.log(x)
+})
